@@ -16,6 +16,8 @@ body {
   border: 1px solid black;
 }
 .bigItem {
-  grid-row: 2 / 4;
-  grid-column: 2 / 4;
+  grid-area: 2 / 2 / 4 / 4;
+  height: 50%;
+  width: 50%;
+  justify-self: center;
 }
