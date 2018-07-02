@@ -16,9 +16,6 @@ body {
   border: 1px solid black;
 }
 .bigItem {
- grid-row-start: 2;
-  grid-row-end: 4;
-  grid-column-start: 2;
-  grid-column-end: 4;
-  
+  grid-row: 2 / 4;
+  grid-column: 2 / 4;
 }
